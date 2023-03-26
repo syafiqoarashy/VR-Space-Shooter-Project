@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8655281296514194416}
   - component: {fileID: 4117437747758533196}
   - component: {fileID: 655014321207139726}
+  - component: {fileID: -6140105596337943525}
   m_Layer: 0
   m_Name: Asteroid
   m_TagString: Asteroid
@@ -64,6 +65,20 @@ MonoBehaviour:
   rotationalSpeedMin: 5
   rotationalSpeedMax: 15
   movementDirection: {x: -1, y: 0, z: 0}
+--- !u!114 &-6140105596337943525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8512000840424516683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13a009fa1f2af874f8ca8e4ce7d4fbe4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 5587333519594629070, guid: c34c359c899647148a75c1c18db29282,
+    type: 3}
 --- !u!1001 &2996188979316244303
 PrefabInstance:
   m_ObjectHideFlags: 0
